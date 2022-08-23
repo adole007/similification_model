@@ -1,0 +1,25 @@
+{
+    "base_dir": "/media/chris/2F9A7F5065B666F1/inkrecorder_data/simplify/",
+    "base_log_dir": "/media/chris/2F9A7F5065B666F1/inkrecorder_data/simplify/logs",
+    "train_dir": "train",
+    "validate_dir": "validate",
+    "test_dir": "test",
+    "save_dir": "save",
+    "img_ext": ".png",
+    "weights_file": "path_simple_weights.hdf5",
+    "image_sub_dir": "img",
+    "segmentation_sub_dir": "seg",
+    "batch_size": 1,
+    "target_size": [784, 1040],
+    "gen": {
+        "root_dir": "/media/chris/2F9A7F5065B666F1/inkrecorder_data/flat",
+        "img_dir": "img",
+        "path_dir": "path",
+        "img_ext": "png",
+        "path_ext": "json",
+        "tvt_ratio": [0.64, 0.2, 0.16]
+    },
+    "gen_simplify": {
+        "img_size": [784, 1040]
+    }
+}
